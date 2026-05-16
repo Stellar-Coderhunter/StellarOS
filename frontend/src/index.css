@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Inter:wght@300;400;600&display=swap');
+
+:root {
+  --bg-dark: #0b0c10;
+  --bg-card: rgba(31, 40, 51, 0.6);
+  --primary: #45f3ff;
+  --secondary: #66fcf1;
+  --text-main: #c5c6c7;
+  --text-light: #ffffff;
+  --border-color: rgba(69, 243, 255, 0.2);
+  --glow: 0 0 15px rgba(69, 243, 255, 0.5);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--bg-dark);
+  color: var(--text-main);
+  background-image: 
+    radial-gradient(circle at 15% 50%, rgba(69, 243, 255, 0.08), transparent 25%),
+    radial-gradient(circle at 85% 30%, rgba(102, 252, 241, 0.08), transparent 25%);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
+}
+
+h1, h2, h3 {
+  font-family: 'Outfit', sans-serif;
+  color: var(--text-light);
+}
+
+#root {
+  width: 100%;
+}
